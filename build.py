@@ -53,6 +53,7 @@ def org_schema():
         "name": CO["name"],
         "url": DOMAIN,
         "image": f"{DOMAIN}/{PRODUCTS[0]['image']}",
+        "logo": f"{DOMAIN}/images/icon-512.png",
         "telephone": CO["phone_link"],
         "email": CO["email"],
         "foundingDate": CO["founded"],
@@ -147,6 +148,10 @@ def page(title, description, body, path, keywords="", extra_head="", depth=0, og
 <meta name="geo.region" content="IN-UP">
 <meta name="geo.placename" content="{CO['city']}">
 <meta name="theme-color" content="#14283f">
+<link rel="icon" href="{up}images/favicon.ico" sizes="48x48">
+<link rel="icon" href="{up}images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="{up}images/icon-180.png">
+<link rel="manifest" href="{up}images/site.webmanifest">
 {FONTS}
 <link rel="stylesheet" href="{up}css/style.css">
 {extra_head}
