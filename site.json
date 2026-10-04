@@ -1,0 +1,307 @@
+{
+  "domain": "https://sadguruinsulation.com",
+  "company": {
+    "name": "Sadguru Industrial Enterprises",
+    "short_name": "Sadguru Industrial",
+    "tagline": "Transformer insulation components, made in Jhansi since 2011",
+    "proprietor": "Rohit Srivastava",
+    "city": "Jhansi",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "postal_code": "284001",
+    "street_address": "REPLACE WITH FULL FACTORY ADDRESS",
+    "phone_display": "+91 XXXXX XXXXX",
+    "phone_link": "+91XXXXXXXXXX",
+    "whatsapp": "91XXXXXXXXXX",
+    "email": "REPLACE@example.com",
+    "gst": "09BYQPS5818D1ZV",
+    "founded": "2011",
+    "employees": "Up to 10",
+    "indiamart_url": "https://www.indiamart.com/sadguruindustrial-enterprises/",
+    "show_prices": true,
+    "form_action": "https://formspree.io/f/REPLACE_WITH_FORM_ID"
+  },
+  "products": [
+    {
+      "slug": "pressboard-strips",
+      "name": "Pressboard Strips",
+      "short": "Electrical-grade pressboard strips cut to size for transformer windings and clamping.",
+      "keywords": "pressboard strips, press board strips, transformer pressboard strips, insulation strips for transformers, pressboard strips manufacturer Jhansi",
+      "price": "₹130 – ₹350 per kg",
+      "image": "images/pressboard-strips.jpg",
+      "description": "Pressboard strips are the basic insulation and spacing material inside oil-filled transformers. We cut them from electrical-grade pressboard to the width, thickness and length you specify, with clean edges and no delamination.",
+      "specs": [
+        [
+          "Material",
+          "Electrical-grade transformer pressboard"
+        ],
+        [
+          "Variants",
+          "Plain strips, insulation strips, rectangular strips"
+        ],
+        [
+          "Size",
+          "Cut to your drawing or sample"
+        ],
+        [
+          "Finish",
+          "Smooth, flat, square-cut edges"
+        ],
+        [
+          "Used in",
+          "Winding spacing, axial cooling ducts, clamping, lead support"
+        ],
+        [
+          "Transformer type",
+          "Distribution and power transformers"
+        ],
+        [
+          "Supply",
+          "Loose or bundled, sold per kg"
+        ]
+      ],
+      "applications": [
+        "Spacing between winding discs and layers",
+        "Cooling-duct formation in oil-filled windings",
+        "Packing and clamping inside the core-and-coil assembly",
+        "Support strips for leads and tap connections"
+      ]
+    },
+    {
+      "slug": "dovetail-spacers",
+      "name": "Dovetail Spacers",
+      "short": "Pressboard dovetail spacers for pressure rings, static rings and winding ducts.",
+      "keywords": "dovetail spacers, pressboard dovetail spacers, transformer dovetail spacers, dovetail strips, dovetail spacer manufacturer",
+      "price": "₹350 per kg",
+      "image": "images/dovetail-spacers.jpg",
+      "description": "Dovetail spacers lock into dovetail strips to form the radial cooling ducts of a transformer winding. We make them from pressboard with a precise dovetail profile so they sit firmly and keep duct spacing even along the whole winding height.",
+      "specs": [
+        [
+          "Material",
+          "Electrical-grade transformer pressboard"
+        ],
+        [
+          "Design",
+          "Standard dovetail or customised to your drawing"
+        ],
+        [
+          "Finish",
+          "Accurate profile, smooth faces"
+        ],
+        [
+          "Used in",
+          "Pressure rings, static rings, winding ducts, clamping plates"
+        ],
+        [
+          "Transformer type",
+          "Distribution and power transformers"
+        ],
+        [
+          "Supply",
+          "Sold per kg; matching dovetail strips available"
+        ]
+      ],
+      "applications": [
+        "Radial cooling ducts between winding discs",
+        "Pressure and static ring assemblies",
+        "Clamping plates in power distribution transformers",
+        "Replacement spacers for rewinding jobs at OEMs and utilities"
+      ]
+    },
+    {
+      "slug": "hardwood-rods",
+      "name": "Hardwood Rods for Transformers",
+      "short": "Seasoned hardwood rods, 6 mm to 16 mm diameter, up to 2 metres long.",
+      "keywords": "hardwood rod for transformer, wooden rod transformer, transformer wood rod, hardwood dowel transformer, hardwood rod manufacturer Jhansi",
+      "price": "On request",
+      "image": "images/hardwood-rods.jpg",
+      "description": "Hardwood rods are used inside transformers where a strong, non-conductive support or spacer is needed. Ours are turned from seasoned hardwood to a round, straight finish and are available in six standard diameters.",
+      "specs": [
+        [
+          "Material",
+          "Seasoned hardwood"
+        ],
+        [
+          "Diameter",
+          "6, 8, 10, 12, 14, 16 mm"
+        ],
+        [
+          "Length",
+          "Up to 7 ft (about 2 m); cut to length on request"
+        ],
+        [
+          "Finish",
+          "Straight, round, smooth surface"
+        ],
+        [
+          "Transformer type",
+          "Distribution and power transformers"
+        ],
+        [
+          "Supply",
+          "Per piece or per bundle"
+        ]
+      ],
+      "applications": [
+        "Lead support and spacing inside the tank",
+        "Coil support and packing",
+        "Insulating pegs and dowels in core-and-coil assemblies",
+        "General non-conductive spacers"
+      ]
+    },
+    {
+      "slug": "transformer-insulation-kit",
+      "name": "Transformer Insulation Kit",
+      "short": "A complete set of pressboard insulation parts for one transformer, ready to fit.",
+      "keywords": "transformer insulation kit, transformer pressboard kit, distribution transformer insulation kit, transformer insulation parts set",
+      "price": "₹130 per kg",
+      "image": "images/transformer-insulation-kit.jpg",
+      "description": "An insulation kit bundles all the pressboard strips, spacers, cylinders, angle rings and packing pieces needed to build one transformer. You send the design or rating; we cut and pack the full set so your assembly line gets everything in one box.",
+      "specs": [
+        [
+          "Material",
+          "Electrical-grade pressboard and related insulation"
+        ],
+        [
+          "Contents",
+          "Strips, dovetail spacers, cylinders, angle rings, packing as per design"
+        ],
+        [
+          "Rating",
+          "Made to your transformer rating and drawing"
+        ],
+        [
+          "Finish",
+          "Each part cut, labelled and packed"
+        ],
+        [
+          "Transformer type",
+          "Distribution and power transformers"
+        ],
+        [
+          "Supply",
+          "Kit per transformer, priced per kg"
+        ]
+      ],
+      "applications": [
+        "New transformer manufacturing at OEM plants",
+        "Repair and rewinding of transformers at utility workshops",
+        "Standardising insulation parts across a product range"
+      ]
+    },
+    {
+      "slug": "bakelite-strips",
+      "name": "Bakelite Strips (Phenolic Laminate)",
+      "short": "F4 electrical-grade phenolic laminated strips, cotton or paper base.",
+      "keywords": "bakelite strips, phenolic laminated strips, bakelite sheet strips, F4 grade bakelite, hylam strips transformer, bakelite strips manufacturer",
+      "price": "On request",
+      "image": "images/bakelite-strips.jpg",
+      "description": "Bakelite strips are cut from phenolic laminated sheets. They are hard, dimensionally stable and resist oil and heat, which makes them useful where pressboard is not strong enough. We supply both cotton-fabric-based and paper-based grades.",
+      "specs": [
+        [
+          "Material",
+          "Phenolic laminate (Bakelite / Hylam)"
+        ],
+        [
+          "Base",
+          "Cotton fabric or paper"
+        ],
+        [
+          "Grade",
+          "F4 electrical grade"
+        ],
+        [
+          "Size",
+          "Cut to width, thickness and length on request"
+        ],
+        [
+          "Finish",
+          "Dimensionally accurate, clean edges"
+        ],
+        [
+          "Used in",
+          "Transformers, switchgear, machinery insulation"
+        ]
+      ],
+      "applications": [
+        "Terminal boards and support strips in transformers",
+        "Spacers and wedges where high mechanical strength is needed",
+        "Insulating strips in panels, switchgear and motors",
+        "General industrial electrical insulation"
+      ]
+    },
+    {
+      "slug": "permawood-components",
+      "name": "Permawood Components",
+      "short": "Permawood / transformer-wood parts machined exactly to your drawing.",
+      "keywords": "permawood components, transformer wood components, permawood transformer, UDEL wood, densified wood transformer parts, permawood machine components",
+      "price": "On request",
+      "image": "images/permawood-components.jpg",
+      "description": "Permawood (also called transformer wood or UDEL wood) is a densified laminated wood used for load-bearing insulation parts. We machine blocks, cleats, clamping pieces and other components from Permawood to the dimensions and tolerances on your drawing.",
+      "specs": [
+        [
+          "Material",
+          "Permawood / transformer wood / UDEL wood"
+        ],
+        [
+          "Size",
+          "As per customer drawing"
+        ],
+        [
+          "Types",
+          "Clamping blocks, cleats, pads, support pieces, machine components"
+        ],
+        [
+          "Finish",
+          "Machined to drawing tolerances"
+        ],
+        [
+          "Used in",
+          "Transformers and industrial machinery"
+        ]
+      ],
+      "applications": [
+        "Winding clamping blocks and pressure pads",
+        "Lead cleats and support pieces",
+        "Core clamping insulation",
+        "Insulating machine components for industrial equipment"
+      ]
+    },
+    {
+      "slug": "clack-bands",
+      "name": "Clack Bands",
+      "short": "Lightweight press-paper clack bands for power transformer windings.",
+      "keywords": "clack band transformer, press paper clack band, transformer clack band, clack band manufacturer",
+      "price": "On request",
+      "image": "images/clack-bands.jpg",
+      "description": "Clack bands are round press-paper bands fitted during winding and assembly of power transformers. Ours are light, easy to fit and finished without rough edges, so they do not damage conductor insulation.",
+      "specs": [
+        [
+          "Material",
+          "Press paper / pressboard"
+        ],
+        [
+          "Shape",
+          "Round"
+        ],
+        [
+          "Size",
+          "Diameter and width as per requirement"
+        ],
+        [
+          "Finish",
+          "Smooth, light in weight"
+        ],
+        [
+          "Transformer type",
+          "Power transformers"
+        ]
+      ],
+      "applications": [
+        "Binding and holding winding sections during assembly",
+        "Supporting leads and crossovers",
+        "Protective banding around winding ends"
+      ]
+    }
+  ]
+}

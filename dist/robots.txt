@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sadguruinsulation.com/sitemap.xml
