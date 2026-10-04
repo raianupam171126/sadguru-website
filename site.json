@@ -18,7 +18,7 @@
     "founded": "2011",
     "employees": "Up to 10",
     "indiamart_url": "https://www.indiamart.com/sadguruindustrial-enterprises/",
-    "show_prices": true,
+    "show_prices": false,
     "form_action": "https://formspree.io/f/xnpneega"
   },
   "products": [

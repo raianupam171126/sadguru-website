@@ -28,8 +28,8 @@ FAQ = [
      "Pressboard is a dense kraft-paper board used for most insulation and spacing inside the winding. Bakelite (phenolic laminate) "
      "is harder and stronger, used where parts take mechanical load, such as terminal boards and support strips. See our materials guide for details."),
     ("How is pricing worked out?",
-     "Most items are priced per kilogram. Price depends on material, thickness and quantity. We quote against your drawing, "
-     "and the quote stays valid for the period stated on it."),
+     "We do not publish fixed prices because material cost, thickness, cutting and quantity all change the figure. "
+     "Send your drawing and quantity and we quote the same working day; the quote stays valid for the period stated on it."),
     ("What is the usual lead time?",
      "Standard strips and spacers usually ship within 7 to 10 working days of order confirmation. Machined Permawood parts and full "
      "insulation kits take longer depending on the drawing. We confirm the delivery date with the quotation."),
