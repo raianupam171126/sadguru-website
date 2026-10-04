@@ -450,6 +450,8 @@ def build_contact():
       </div>
       <div>
         <form action="{CO['form_action']}" method="POST">
+          <input type="hidden" name="_subject" value="Website enquiry: {CO['name']}">
+          <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
           <label for="name">Your name</label>
           <input id="name" name="name" required autocomplete="name">
           <label for="company">Company</label>
@@ -457,7 +459,7 @@ def build_contact():
           <label for="phone">Phone</label>
           <input id="phone" name="phone" type="tel" required autocomplete="tel">
           <label for="email">Email</label>
-          <input id="email" name="email" type="email" autocomplete="email">
+          <input id="email" name="email" type="email" autocomplete="email"><input type="hidden" name="_replyto" value="">
           <label for="product">Product</label>
           <select id="product" name="product"><option value="">Select a product</option>{options}<option>Other / multiple</option></select>
           <label for="message">Requirement (size, quantity, transformer rating)</label>
@@ -469,6 +471,7 @@ def build_contact():
   </div>
 </section>
 <script>
+  document.getElementById('email').addEventListener('input', function() {{ document.querySelector('[name=_replyto]').value = this.value; }});
   var slug = new URLSearchParams(location.search).get('product');
   if (slug) {{
     var sel = document.getElementById('product'), key = slug.replace(/-/g, '').slice(0, 8);
