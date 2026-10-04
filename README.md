@@ -10,7 +10,7 @@ A fast static website. No database, no plugins, nothing to update or patch.
 | `content.py` | FAQ, materials guide, glossary, ordering steps and the knowledge guides. Edit this to add or change articles. |
 | `build.py` | Turns `site.json` into finished web pages. Run it after any edit. |
 | `css/style.css` | Site design. |
-| `images/` | Placeholder product images. Replace with real photos (see below). |
+| `images/` | Product photos. |
 | `dist/` | The finished website. **Upload this folder's contents to the host.** |
 
 ## Before going live — fill in these placeholders in `site.json`
@@ -24,14 +24,20 @@ A fast static website. No database, no plugins, nothing to update or patch.
 
 Then run `python build.py` and re-upload `dist/`.
 
-## How to put it online (about 30 minutes)
+## How it is hosted
 
-1. **Buy the domain** at Hostinger, GoDaddy India or Namecheap. Sadguruinsulation.com and sadguruindustrial.in looked free on 4 Oct 2026.
-2. **Host it free** on Netlify: go to app.netlify.com, drag the `dist` folder onto the page. It goes live on a netlify.app address immediately.
-3. **Connect the domain**: in Netlify, Domain settings → Add custom domain → follow the DNS steps at the registrar. HTTPS is automatic.
-4. **Google Search Console** (search.google.com/search-console): add the domain, verify, submit `https://<domain>/sitemap.xml`.
-5. **Google Business Profile** (business.google.com): create a listing for the Jhansi factory with the same name, address and phone as the site. This matters as much as the website for local search.
-6. Add the new website link to the IndiaMART profile.
+- Code: github.com/raianupam171126/sadguru-website (branch `main`)
+- Hosting: GitHub Pages, deployed automatically by `.github/workflows/pages.yml` on every push
+- Domain: sadguruindustrialenterprises.com, registered at GoDaddy, pointed at GitHub Pages by DNS (4 A records + 1 CNAME for www)
+- HTTPS: issued by GitHub once DNS resolves; "Enforce HTTPS" is ticked in repo Settings → Pages
+
+To publish a change: edit `site.json` or `content.py`, commit, push. The site rebuilds in about 20 seconds.
+
+## Still to do after launch
+
+1. Google Search Console (search.google.com/search-console): add the domain, verify by DNS TXT record at GoDaddy, submit `https://sadguruindustrialenterprises.com/sitemap.xml`.
+2. Google Business Profile (business.google.com): listing for the Jhansi factory with the same name, address and phone as the site.
+3. Add the website link to the IndiaMART profile.
 
 ## Adding a guide article
 

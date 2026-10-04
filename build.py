@@ -694,6 +694,7 @@ def main():
         write(f"guides/{g['slug']}.html", build_guide(g))
     write("404.html", build_404())
     write("sitemap.xml", build_sitemap())
+    write("CNAME", DOMAIN.replace("https://", "") + "\n")
     write("robots.txt", f"User-agent: *\nAllow: /\nSitemap: {DOMAIN}/sitemap.xml\n")
     print(f"Built {len(list(DIST.rglob('*.html')))} pages into {DIST}")
 
