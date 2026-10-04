@@ -238,7 +238,7 @@ def build_home():
 <section class="hero">
   <div class="wrap">
     <div>
-      <h1>Transformer insulation parts, cut to your drawing</h1>
+      <h1>Transformer insulation parts, manufactured to your drawing</h1>
       <p class="lede">Pressboard strips, dovetail spacers, hardwood rods, bakelite strips, Permawood components and complete insulation kits for distribution and power transformers. Made in {CO['city']} since {CO['founded']}.</p>
       <div class="cta">
         <a class="btn btn-primary" href="contact.html">Request a quote</a>
@@ -296,7 +296,7 @@ def build_home():
 """
     title = f"Transformer Insulation Components Manufacturer in {CO['city']} | {CO['name']}"
     desc = (f"{CO['name']} makes pressboard strips, dovetail spacers, hardwood rods, bakelite strips, Permawood components and "
-            f"transformer insulation kits in {CO['city']}, {CO['state']}. Cut to your drawing. Supplying OEMs and utilities since {CO['founded']}.")
+            f"transformer insulation kits in {CO['city']}, {CO['state']}. Manufactured to your drawing. Supplying OEMs and utilities since {CO['founded']}.")
     kw = ("transformer insulation components, pressboard strips manufacturer, dovetail spacers, hardwood rod transformer, bakelite strips, "
           "permawood components, transformer insulation kit, Jhansi, Uttar Pradesh, transformer parts manufacturer India")
     website = {"@context": "https://schema.org", "@type": "WebSite", "name": CO["name"], "url": DOMAIN}
